@@ -1,0 +1,51 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* FORM */
+.form input {
+  margin: 5px;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+/* LISTA */
+.estoque ul {
+  list-style: none;
+  padding: 0;
+}
+
+.estoque li {
+  background: #fff;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* RECIBO */
+.recibo {
+  margin-top: 20px;
+  background: #fff;
+  padding: 10px;
+  border: 2px dashed #000;
+}
+
+.barcode {
+  font-family: monospace;
+  letter-spacing: 3px;
+  margin-top: 10px;
+}
